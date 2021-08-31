@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.main{
+  margin:0.1rem auto;
+  background-color:pink;
+  justify-content:center;
+  color:black;
+}
+.center{
+  padding:0.5rem;
+}
+.Heading{
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:rgb(21, 255, 0);
+}
+.deleteIcon{
+  color:red;
+  padding:0.1rem;
+}
+.add{
+  color:green;
+}
+input{
+  border:none;
+  border-bottom:0.2rem solid black;
+}
+.row{
+  position:relative;
+  background-color:rgb(192, 248, 255);
+  margin:0.1rem auto;
+  border-radius:1rem;
+}
+.right{
+  position:absolute;
+  right:1rem;
+  display:block;
+  padding:0.1rem;
+  bottom:0.1rem;
+}
+@media(max-width:500px) {
+  html{
+   font-size:50%;
+  }
+}
+@media(max-width:450px) {
+  html{
+   font-size:45%;
+  }
+}
+@media(max-width:400px) {
+  html{
+   font-size:40%;
+  }
+}
+@media(max-width:350px) {
+  html{
+   font-size:35%;
+  }
+}
+@media(max-width:300px) {
+  html{
+   font-size:30%;
+  }
+}
+@media(max-width:250px) {
+  html{
+   font-size:25%;
+  }
+}
+@media(max-width:200px) {
+  html{
+   font-size:20%;
+  }
+}
+@media(max-width:150px){
+ html{
+  font-size:12%;
+ }
+}
